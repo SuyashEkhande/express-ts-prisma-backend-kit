@@ -24,7 +24,7 @@ A robust and scalable backend boilerplate built with TypeScript, Node.js, Expres
 - **Zod** (Schema Validation)
 - **JWT** (Authentication)
 
-### Prerequisites 
+## Prerequisites 
 
 Make sure you have the following installed on your system: 
 - **Node.js** (version 14.x or higher) 
@@ -35,7 +35,7 @@ Make sure you have the following installed on your system:
 
 This project includes several npm scripts to help with development and management tasks. You can run them using `npm run <script-name>`.
 
-### Scripts
+## Scripts
 
 - **`npm run test`**: Runs a test command (currently a placeholder, you can replace it with your test framework setup).
 - **`npm run build`**: Compiles the TypeScript code using `npx tsc -b` (build command).
