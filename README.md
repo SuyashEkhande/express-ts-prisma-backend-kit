@@ -24,24 +24,8 @@ A robust and scalable backend boilerplate built with TypeScript, Node.js, Expres
 - **Zod** (Schema Validation)
 - **JWT** (Authentication)
 
-## Folder Structure
-
-This project follows a modular structure to maintain clean and maintainable code. Here’s a breakdown of the folders:
-
-src/
-├── app/
-│   ├── controllers/       # Route handler functions
-│   ├── middlewares/       # Express middlewares
-│   ├── routes/            # API route definitions
-│   ├── services/          # Business logic and database interaction
-│   ├── validators/        # Zod schema validators
-├── config/                # Configuration files (e.g., database, JWT, etc.)
-├── types/                 # Type definitions
-├── utils/                 # Utility functions and helpers
-└── index.ts               # Main entry point for the app
-
-
 ### Prerequisites 
+
 Make sure you have the following installed on your system: 
 - **Node.js** (version 14.x or higher) 
 - **npm** (Node Package Manager) 
@@ -65,6 +49,7 @@ These scripts help streamline the development process and ensure smooth operatio
 
 
 ### Steps to Get Started 
+
 1. Clone the repository: 
 `git clone https://github.com/yourusername/typescript-express-postgres-starter.git` 
 `cd typescript-express-postgres-starter`
