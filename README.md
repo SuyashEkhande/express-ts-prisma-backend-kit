@@ -48,7 +48,7 @@ This project includes several npm scripts to help with development and managemen
 These scripts help streamline the development process and ensure smooth operation across different environments.
 
 
-### Steps to Get Started 
+## Steps to Get Started 
 
 1. Clone the repository: 
 `git clone https://github.com/yourusername/typescript-express-postgres-starter.git` 
