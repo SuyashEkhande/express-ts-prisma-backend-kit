@@ -1,0 +1,6 @@
+{
+    "watch": ["src", "tsconfig.json", ".env"],
+    "ext": "ts",
+    "exec": "npx tsc -b && node dist/index.js"
+}
+  

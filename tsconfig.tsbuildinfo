@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/app/controllers/auth.controller.ts","./src/app/middlewares/auth.middleware.ts","./src/app/routes/auth.routes.ts","./src/app/services/auth.service.ts","./src/app/validators/auth.schema.ts","./src/config/app.config.ts","./src/config/prisma.client.ts","./src/types/auth.interface.ts","./src/types/express.d.ts"],"version":"5.7.2"}
