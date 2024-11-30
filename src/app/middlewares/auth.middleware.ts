@@ -9,11 +9,12 @@ export const authMiddleware = (
     req: Request,
     res: Response,
     next: NextFunction
-) => {
+):void | Promise<void> => {
     const token = req.header("Authorization")?.replace("Bearer ", "");
 
     if (!token) {
-        return res.status(401).json({ message: "Unauthorized" });
+        res.status(401).json({ message: "Unauthorized" });
+        return;
     }
 
     try {
@@ -21,6 +22,7 @@ export const authMiddleware = (
         req.authUser = decoded;
         next();
     } catch (error){
-        return res.status(401).json({ message: "Unauthorized" });
+        res.status(401).json({ message: "Unauthorized" });
+        return;
     }
 };
