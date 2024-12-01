@@ -29,7 +29,7 @@ const TodoService = {
         
     },
 
-    updateTodos: async(
+    updateTodo: async(
         userId: number, 
         todoId: number, 
         todoData: UpdateTodoRequestDTO
