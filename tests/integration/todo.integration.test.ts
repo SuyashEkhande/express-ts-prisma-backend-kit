@@ -1,8 +1,19 @@
 import request from 'supertest';
-import {app} from '../../src/index'; // Assuming you have an Express app initialized in src/app.ts
 import { mockTodoService } from '../__mocks__/mockTodoService';
+jest.mock('../../src/app/services/todo.service', () => mockTodoService);
+import { app, server } from '../../src/index'; 
 
-jest.mock('../../src/services/todo.service', () => mockTodoService);
+// Mocking the AuthMiddleware
+jest.mock('../../src/app/middlewares/auth.middleware', () => ({
+  authMiddleware: jest.fn().mockImplementation((req, res, next) => {
+    console.log('Middleware is being called'); // Add this for debugging
+
+    // Simulate a valid token by passing a mocked user to the next middleware
+    req.authUser = { id: 1, username: 'testuser' }; // Mocked user data
+    next(); // Call the next middleware
+  }),
+}));
+
 
 describe('TodoController', () => {
   let token: string;
@@ -13,7 +24,7 @@ describe('TodoController', () => {
       .post('/auth/register')
       .send({
         username: 'testuser',
-        email: 'testuser@example.com',
+        email: 'testuser2@example.com',
         password: 'testpassword123',
       });
 
@@ -67,5 +78,9 @@ describe('TodoController', () => {
 
     expect(res.status).toBe(200);
     expect(res.body.message).toBe('Todo deleted successfully');
+  });
+
+  afterAll(() => {
+    server.close(); // Close the server
   });
 });

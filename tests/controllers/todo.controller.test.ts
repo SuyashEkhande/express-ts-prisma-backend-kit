@@ -1,11 +1,27 @@
 import request from 'supertest';
-import {app} from '../../src/index';  // Import your Express app
-import { mockTodoService } from './__mocks/mockTodoService';
+import { mockTodoService } from '../__mocks__/mockTodoService';
+jest.mock('../../src/app/services/todo.service', () => mockTodoService);
+import { app, server } from '../../src/index'; 
+import jwt from 'jsonwebtoken';
+import { JWT_SECRET } from '../../src/config/app.config';
 
-// Mocking TodoService methods used in the controller
-jest.mock('../src/app/services/todo.service', () => mockTodoService);
+// Create a valid token in the test
+const generateValidToken = (user = { id: 1, username: 'testuser' }) => {
+  return jwt.sign(user, JWT_SECRET, { expiresIn: '1h' });
+};
+
+jest.mock('jsonwebtoken', () => ({
+  ...jest.requireActual('jsonwebtoken'),
+  verify: jest.fn().mockImplementation(() => ({ id: 1, username: 'testuser' })), // Mocked decoded token
+}));
 
 describe('TodoController Tests', () => {
+  let token: string;
+
+  beforeAll(() => {
+    token = generateValidToken(); // Generate a valid token
+  });
+
   describe('POST /todos', () => {
     it('should create a new todo successfully', async () => {
       mockTodoService.createTodo.mockResolvedValue({
@@ -17,7 +33,7 @@ describe('TodoController Tests', () => {
 
       const response = await request(app)
         .post('/todos')
-        .set('Authorization', 'Bearer mocked-token') // Assuming auth is required
+        .set('Authorization', `Bearer ${token}`) // Use the generated token
         .send({
           title: 'Test Todo',
           description: 'Test Description',
@@ -49,7 +65,7 @@ describe('TodoController Tests', () => {
 
       const response = await request(app)
         .get('/todos')
-        .set('Authorization', 'Bearer mocked-token');  // Assuming auth is required
+        .set('Authorization', `Bearer ${token}`);  // Using the generated token
 
       expect(response.status).toBe(200);
       expect(response.body.message).toBe('Todo fetched successfully');
@@ -67,7 +83,7 @@ describe('TodoController Tests', () => {
 
   describe('PUT /todos/:id', () => {
     it('should update a todo successfully', async () => {
-      mockTodoService.updateTodos.mockResolvedValue({
+      mockTodoService.updateTodo.mockResolvedValue({
         id: 1,
         title: 'Updated Todo',
         description: 'Updated Description',
@@ -76,7 +92,7 @@ describe('TodoController Tests', () => {
 
       const response = await request(app)
         .put('/todos/1')
-        .set('Authorization', 'Bearer mocked-token')
+        .set('Authorization', `Bearer ${token}`)
         .send({
           title: 'Updated Todo',
           description: 'Updated Description',
@@ -100,10 +116,14 @@ describe('TodoController Tests', () => {
 
       const response = await request(app)
         .delete('/todos/1')
-        .set('Authorization', 'Bearer mocked-token');
+        .set('Authorization', `Bearer ${token}`);
 
       expect(response.status).toBe(200);
       expect(response.body.message).toBe('Todo deleted successfully');
     });
+  });
+
+  afterAll(() => {
+    server.close(); // Close the server
   });
 });

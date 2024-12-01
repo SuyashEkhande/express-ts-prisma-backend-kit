@@ -1,9 +1,8 @@
 import request from 'supertest';
-import {app} from '../../src/index';  // Import your Express app
-import { mockAuthService } from './__mocks/mockAuthService';
+import { mockAuthService } from '../__mocks__/mockAuthService';
+jest.mock('../../src/app/services/auth.service', () => mockAuthService);
+import { app, server } from '../../src/index';  
 
-// Mocking AuthService methods used in the controller
-jest.mock('../src/app/services/auth.service', () => mockAuthService);
 
 describe('AuthController Tests', () => {
   describe('POST /auth/register', () => {
@@ -92,5 +91,8 @@ describe('AuthController Tests', () => {
       expect(response.status).toBe(400);
       expect(response.body.message).toBe('Invalid Password');
     });
+  });
+  afterAll(() => {
+    server.close(); // Close the server
   });
 });

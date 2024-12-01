@@ -8,7 +8,7 @@ import { Request } from 'express';
 
 dotenv.config();
 
-export const app:Express = express();
+const app:Express = express();
 
 app.use(express.json());
 
@@ -34,8 +34,12 @@ app.use("/todos", todoRoutes);
 
 const PORT = process.env.EXPRESS_PORT || 3000;
 
-app.listen(PORT, () => {
+// Store the server instance so we can close it later
+const server = app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-});
+  });
+  
+// Export the app for testing
+export { app, server };
 
 

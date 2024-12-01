@@ -90,7 +90,7 @@ const TodoController = {
             const { title, description, status } = updateTodoSchema.parse(req.body);
             const userId: number = req.authUser.userId; //userId which is parsed from auth middleware and stored in req.authUser
             
-            const updatedTodo = await TodoService.updateTodos(userId, parseInt(req.params.id), { title, description, status });
+            const updatedTodo = await TodoService.updateTodo(userId, parseInt(req.params.id), { title, description, status });
 
             if (!updatedTodo) {
                 res.status(404).json({ message: 'Todo not found', todo: null });

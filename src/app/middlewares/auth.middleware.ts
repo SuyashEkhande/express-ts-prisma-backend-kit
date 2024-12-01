@@ -10,6 +10,8 @@ export const authMiddleware = (
     res: Response,
     next: NextFunction
 ):void | Promise<void> => {
+    console.log('Auth Middleware Called');  // This should appear in your test logs
+
     const token = req.header("Authorization")?.replace("Bearer ", "");
 
     if (!token) {
