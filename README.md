@@ -1,7 +1,8 @@
 
 # Typescript Express PostgreSQL Starter
 
-A robust and scalable backend boilerplate built with TypeScript, Node.js, Express, PostgreSQL, Prisma, and Zod. This project demonstrates best practices in API development, including modular architecture, validation, authentication, and database integration. Perfect for rapidly prototyping secure and maintainable server-side applications.
+A robust and scalable backend boilerplate built with TypeScript, Node.js, Express, PostgreSQL, Prisma, Zod, Jest, and Supertest. This project demonstrates best practices in API development, including modular architecture, validation, authentication, database integration, and testing. Perfect for rapidly prototyping secure and maintainable server-side applications.
+
 
 ## Features
 
@@ -13,6 +14,8 @@ A robust and scalable backend boilerplate built with TypeScript, Node.js, Expres
 - **JWT Authentication**: Secure authentication system using JSON Web Tokens (JWT).
 - **Modular Architecture**: Organized into Controllers, Services, Routes, Middlewares, Validators, and Types for clear separation of concerns.
 - **Scalability**: Built to easily scale for production-ready applications.
+- **Jest**: Testing framework for running unit and integration tests.
+- **Supertest**: HTTP assertion library for testing Express APIs.
   
 ## Tech Stack
 
@@ -23,6 +26,8 @@ A robust and scalable backend boilerplate built with TypeScript, Node.js, Expres
 - **Prisma** (ORM)
 - **Zod** (Schema Validation)
 - **JWT** (Authentication)
+- **Jest** (Testing Framework)
+- **Supertest** (API Testing)
 
 ## Prerequisites 
 
@@ -37,7 +42,7 @@ This project includes several npm scripts to help with development and managemen
 
 ### Scripts
 
-- **`npm run test`**: Runs a test command (currently a placeholder, you can replace it with your test framework setup).
+- **`npm run test`**: Runs tests using Jest. The command also includes Supertest for API testing.
 - **`npm run build`**: Compiles the TypeScript code using `npx tsc -b` (build command).
 - **`npm run dev`**: Starts the development server using `nodemon` to automatically restart on file changes.
 - **`npm run start`**: Starts the application by running the compiled JavaScript file from `src/index.ts`.
@@ -46,7 +51,6 @@ This project includes several npm scripts to help with development and managemen
 - **`npm run prisma:migrate`**: Applies database migrations using Prisma's `migrate dev` command for local development.
 
 These scripts help streamline the development process and ensure smooth operation across different environments.
-
 
 ## Steps to Get Started 
 
@@ -85,4 +89,6 @@ A big thank you to the creators and maintainers of the following libraries and t
 - **[PostgreSQL](https://www.postgresql.org/)**: For providing a powerful relational database solution.
 - **[Zod](https://github.com/colinhacks/zod)**: For simplifying schema validation in TypeScript.
 - **[Prisma](https://www.prisma.io/)**: For ORM support and easier database management.
+- **[Jest](https://jestjs.io/)**: For running tests and ensuring quality.
+- **[Supertest](https://github.com/visionmedia/supertest)**: For HTTP assertions and API testing.
 
