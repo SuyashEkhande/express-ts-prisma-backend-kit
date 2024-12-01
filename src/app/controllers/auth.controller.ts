@@ -29,7 +29,6 @@ const AuthController = {
                 res.status(500).json({ message: "Error registering user" });
                 return;
             }
-            // console.log(user)
 
             //Generating JWT Token
             const token = AuthService.generateToken(user.id, user.username);
