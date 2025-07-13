@@ -1,0 +1,46 @@
+# www.typescriptlang.org llms.txt
+
+- [TypeScript Declaration Merging](https://www.typescriptlang.org/docs/handbook/declaration-merging.html): Explain TypeScript's declaration merging concept and its various use cases with examples.
+- [TypeScript Tooling Tutorial](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html): Provide a quick tutorial for setting up and using TypeScript tooling to build a basic web application.
+- [TypeScript Tools & Resources](https://www.typescriptlang.org/tools): Provide tools, references, and resources for learning and using TypeScript effectively.
+- [TypeScript Type Compatibility](https://www.typescriptlang.org/docs/handbook/type-compatibility.html): Explain TypeScript's structural type compatibility rules with examples and advanced topics.
+- [TypeScript JSX Guide](https://www.typescriptlang.org/docs/handbook/jsx.html): Explain how TypeScript supports JSX syntax, type checking, and configuration for React and other frameworks.
+- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html): Explain and demonstrate common TypeScript types and their usage in JavaScript programming.
+- [TypeScript Enums Guide](https://www.typescriptlang.org/docs/handbook/enums.html): Explain TypeScript enums, their types, usage, behavior, and best practices for developers.
+- [TypeScript Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html): Explain and demonstrate how to use indexed access types in TypeScript for retrieving property types.
+- [TypeScript Module Theory](https://www.typescriptlang.org/docs/handbook/modules/theory.html): Explain TypeScript module theory, compiler behavior, and module resolution strategies for various hosts.
+- [TypeScript typeof Operator](https://www.typescriptlang.org/docs/handbook/2/typeof-types.html): Explain how to use TypeScript's typeof operator in type contexts with examples and limitations.
+- [TypeScript Symbols Guide](https://www.typescriptlang.org/docs/handbook/symbols.html): Explain TypeScript's symbol type, unique symbols, and well-known symbols with usage and examples.
+- [TypeScript Cheat Sheets](https://www.typescriptlang.org/cheatsheets): Provide downloadable TypeScript syntax reference cheat sheets for learning and quick coding reference.
+- [TypeScript for Beginners](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html): Introduce TypeScript to new programmers by explaining its relation to JavaScript and static type checking.
+- [TypeScript Documentation](https://www.typescriptlang.org/docs): Provide comprehensive documentation, tutorials, and resources for learning and using TypeScript programming language.
+- [TypeScript in 5 Minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html): Provide a quick, practical introduction to TypeScript for JavaScript developers, focusing on types and syntax.
+- [Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html): Explain and demonstrate usage of TypeScript template literal types for advanced string manipulation and typing.
+- [TypeScript Iterators Guide](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html): Explain TypeScript iterators, generator usage, and their compiler behaviors.
+- [TypeScript Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html): Explain TypeScript type narrowing techniques with examples and best practices for safer code.
+- [Creating Types from Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html): Explain how to create new TypeScript types based on existing types using various type operators and generics.
+- [TypeScript Functions Guide](https://www.typescriptlang.org/docs/handbook/2/functions.html): Explain how to write, type, and use functions in TypeScript including generics, overloads, and special parameters.
+- [TypeScript Namespaces Guide](https://www.typescriptlang.org/docs/handbook/namespaces.html): Explain how to use and organize TypeScript namespaces for code modularity and avoidance of naming conflicts.
+- [TypeScript Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html): Explain TypeScript object types, including interfaces, type aliases, property modifiers, index signatures, extensions, intersections, generics, arrays, and tuples.
+- [TypeScript Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html): Explain and provide usage examples of TypeScript's utility types for type transformations.
+- [TypeScript Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html): Explain and demonstrate TypeScript conditional types for type relationships and generics.
+- [TypeScript Playground](https://www.typescriptlang.org/play): Interactive TypeScript code editor and playground for testing, sharing, and exploring TypeScript features.
+- [Keyof Type Operator](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html): Explain the TypeScript 'keyof' operator and its usage for type manipulation with examples.
+- [TypeScript for Functional Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html): Introduce TypeScript's type system and features for functional programmers familiar with Haskell or ML.
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html): Provide a comprehensive guide to learning and understanding TypeScript programming language.
+- [ESM/CJS Interoperability](https://www.typescriptlang.org/docs/handbook/modules/appendices/esm-cjs-interop.html): Explain interoperability challenges and solutions between ES modules and CommonJS in TypeScript, especially regarding compiler options.
+- [TypeScript for Java/C#](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-oop.html): Explain TypeScript concepts and differences for Java/C# programmers transitioning to TypeScript.
+- [TypeScript Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html): Explain TypeScript's class features, including syntax, inheritance, visibility, generics, and runtime behavior.
+- [TypeScript Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html): Explain the usage and syntax of TypeScript triple-slash directives for compiler instructions and dependencies.
+- [TypeScript Basic Types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html): Explain TypeScript's basic types, static typing, compiler usage, and strictness settings for improved coding.
+- [TypeScript Mixins](https://www.typescriptlang.org/docs/handbook/mixins.html): Explain and demonstrate using mixins in TypeScript for composing classes from reusable components.
+- [TypeScript Generics Guide](https://www.typescriptlang.org/docs/handbook/2/generics.html): Explain TypeScript generics concepts, usage, and features for creating reusable, type-safe components.
+- [TypeScript Modules Guide](https://www.typescriptlang.org/docs/handbook/2/modules.html): Explain how to use and configure modules in TypeScript, including ES Modules and CommonJS syntax.
+- [TypeScript Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html): Explain variable declarations and usage in TypeScript with let, const, var, destructuring, spread, and using syntax.
+- [TypeScript Decorators Guide](https://www.typescriptlang.org/docs/handbook/decorators.html): Explain usage, syntax, and examples of decorators in TypeScript programming language.
+- [TypeScript Namespaces and Modules](https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html): Explain how to use namespaces and modules in TypeScript, including best practices and common pitfalls.
+- [TypeScript Language](https://www.typescriptlang.org): Promote and provide resources to learn, download, and use the TypeScript programming language.
+- [TypeScript Community Hub](https://www.typescriptlang.org/community): Facilitate TypeScript community engagement through online platforms, events, and resource sharing.
+- [TypeScript Type Inference](https://www.typescriptlang.org/docs/handbook/type-inference.html): Explain TypeScript's type inference, including best common type and contextual typing with examples.
+- [Download TypeScript](https://www.typescriptlang.org/download): Provide instructions and options to download and install TypeScript for various development environments.
+- [TypeScript Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html): Explain and demonstrate TypeScript mapped types for creating new types from existing ones.
