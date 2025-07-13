@@ -1,0 +1,55 @@
+# nextjs.org llms.txt
+
+> Provide comprehensive documentation and tutorials for Next.js, a React framework, to help developers build full-stack web applications with guides, API references, and community support.
+
+- [Next.js Backend for Frontend](https://nextjs.org/docs/app/guides/backend-for-frontend): Explain how to use Next.js as a backend for frontend pattern with public API endpoints and middleware.
+- [Next.js CI Build Caching](https://nextjs.org/docs/app/guides/ci-build-caching): Guide to configuring CI build caching for Next.js across various CI providers to improve build performance.
+- [Next.js Font Optimization](https://nextjs.org/docs/app/getting-started/fonts): Guide for optimizing and using fonts in Next.js apps with next/font for better performance and privacy.
+- [Next.js Metadata and OG Images](https://nextjs.org/docs/app/getting-started/metadata-and-og-images): Explain how to add and customize metadata and Open Graph images in Next.js applications for SEO and social sharing.
+- [Next.js CSS-in-JS Guide](https://nextjs.org/docs/app/guides/css-in-js): Guide on using and configuring CSS-in-JS libraries with Next.js app router and React features.
+- [Next.js React Framework](https://nextjs.org/?uwu=true): Showcase Next.js features and benefits for building high-performance React web applications.
+- [Next.js Data Fetching Guide](https://nextjs.org/docs/app/getting-started/fetching-data): Guide on fetching and streaming data in Next.js Server and Client Components with best practices.
+- [Next.js Analytics Guide](https://nextjs.org/docs/app/guides/analytics): Explain how to add and use analytics to measure and report performance metrics in Next.js applications.
+- [Next.js Local Development Guide](https://nextjs.org/docs/app/guides/local-development): Guide to optimizing and troubleshooting Next.js local development environment performance.
+- [Next.js React Framework](https://nextjs.org): Showcase Next.js features and guide users to build high-performance React web applications.
+- [Next.js Error Handling](https://nextjs.org/docs/app/getting-started/error-handling): Guide on handling expected errors and uncaught exceptions in Next.js applications using App Router.
+- [Learn Next.js](https://nextjs.org/learn): Teach users to build and deploy full Next.js applications through step-by-step interactive lessons.
+- [Next.js Documentation](https://nextjs.org/docs): Provide comprehensive documentation and guides for using Next.js framework and its features.
+- [Next.js Forms Guide](https://nextjs.org/docs/app/guides/forms): Guide on creating and managing forms in Next.js using React Server Actions.
+- [Next.js Custom Server Guide](https://nextjs.org/docs/app/guides/custom-server): Guide on setting up and using a custom server with Next.js for advanced routing needs.
+- [Next.js Blog](https://nextjs.org/blog): Provide updates, guides, and detailed release notes about Next.js framework improvements and features.
+- [Next.js Environment Variables](https://nextjs.org/docs/app/guides/environment-variables): Explain how to use and manage environment variables in Next.js applications effectively.
+- [Next.js Upgrade Guide](https://nextjs.org/docs/app/getting-started/upgrading): Guide to upgrading Next.js apps with commands, version info, and available features in canary releases.
+- [Next.js Multi-Tenant Guide](https://nextjs.org/docs/app/guides/multi-tenant): Explain how to build multi-tenant applications using Next.js with recommended architecture.
+- [Next.js Lazy Loading Guide](https://nextjs.org/docs/app/guides/lazy-loading): Explain how to implement lazy loading for Client Components and libraries in Next.js applications.
+- [Next.js Project Structure](https://nextjs.org/docs/app/getting-started/project-structure): Explain Next.js project folder/file conventions and organization recommendations for app routing.
+- [Next.js Layouts and Pages](https://nextjs.org/docs/app/getting-started/layouts-and-pages): Guide on creating and managing layouts, pages, and dynamic routes in Next.js using the App Router.
+- [Next.js CSS Guide](https://nextjs.org/docs/app/getting-started/css): Explain how to use and manage CSS styling methods in Next.js applications with examples and best practices.
+- [Next.js Getting Started](https://nextjs.org/docs/app/getting-started): Guide users to create and develop their first Next.js app using core features and best practices.
+- [Next.js Memory Optimization](https://nextjs.org/docs/app/guides/memory-usage): Guide to optimizing memory usage and troubleshooting memory issues in Next.js applications.
+- [Next.js Caching Guide](https://nextjs.org/docs/app/getting-started/caching-and-revalidating): Explain Next.js APIs for caching and revalidating data to optimize app performance and freshness.
+- [Next.js Route Handlers](https://nextjs.org/docs/app/getting-started/route-handlers-and-middleware): Explain how to implement and use Route Handlers and Middleware in Next.js App Router for request handling and response customization.
+- [Next.js JSON-LD Guide](https://nextjs.org/docs/app/guides/json-ld): Explain how to implement and secure JSON-LD structured data in Next.js applications for better SEO.
+- [Next.js 国际化指南](https://nextjs.org/docs/app/guides/internationalization): Guide developers on implementing internationalized routing and localization in Next.js applications.
+- [Next.js Instrumentation Guide](https://nextjs.org/docs/app/guides/instrumentation): Explain how to set up and use instrumentation for monitoring and logging in Next.js applications.
+- [Next.js Incremental Static Regeneration](https://nextjs.org/docs/app/guides/incremental-static-regeneration): Explain and demonstrate how to implement Incremental Static Regeneration in Next.js for efficient static content updates.
+- [Next.js MDX Guide](https://nextjs.org/docs/app/guides/mdx): Guide on using Markdown and MDX with Next.js App Router for rendering and styling content dynamically.
+- [Next.js Authentication Guide](https://nextjs.org/docs/app/guides/authentication): Guide to implementing authentication, session management, and authorization in Next.js applications.
+- [Next.js Development Guides](https://nextjs.org/docs/app/guides): Provide detailed guides on using Next.js features and best practices for app development.
+- [Next.js Showcase](https://nextjs.org/showcase): Showcase Next.js powered websites and provide resources for high-performance web development.
+- [Next.js Content Security Policy](https://nextjs.org/docs/app/guides/content-security-policy): Guide to implementing and managing Content Security Policy (CSP) in Next.js applications for enhanced security.
+- [Next.js Installation Guide](https://nextjs.org/docs/app/getting-started/installation): Guide users through installing and setting up a Next.js app with App Router and related tools.
+- [Next.js Image Optimization](https://nextjs.org/docs/app/getting-started/images): Explain how to use Next.js Image component for optimized, flexible, and responsive image loading.
+- [Migrating from CRA to Next.js](https://nextjs.org/docs/app/guides/migrating/from-create-react-app): Guide to migrating web applications from Create React App to Next.js with step-by-step instructions.
+- [Next.js Debugging Guide](https://nextjs.org/docs/app/guides/debugging): Guide developers on debugging Next.js applications using various tools and configurations.
+- [Next.js Linking and Navigation](https://nextjs.org/docs/app/getting-started/linking-and-navigating): Explain Next.js routing optimizations like prefetching, streaming, and client-side transitions for fast navigation.
+- [Next.js Caching Guide](https://nextjs.org/docs/app/guides/caching): Explain Next.js caching mechanisms, configurations, and APIs to optimize app performance and data fetching.
+- [Next.js Deployment Guide](https://nextjs.org/docs/app/getting-started/deploying): Explain various deployment methods and configurations for Next.js applications.
+- [Migrating from Vite](https://nextjs.org/docs/app/guides/migrating/from-vite): Guide to migrate a Vite React application to Next.js step-by-step with configurations and optimizations.
+- [Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components): Explain usage and differences of Server and Client Components in Next.js with examples and best practices.
+- [Partial Prerendering Guide](https://nextjs.org/docs/app/getting-started/partial-prerendering): Explain Partial Prerendering in Next.js for combining static and dynamic content to improve performance.
+- [Next.js Migration Guide](https://nextjs.org/docs/app/guides/migrating): Guide developers on migrating applications to Next.js and its App Router from other frameworks.
+- [Updating Data in Next.js](https://nextjs.org/docs/app/getting-started/updating-data): Explain how to create and use Server Functions in Next.js for updating data in applications.
+- [Next.js Draft Mode Guide](https://nextjs.org/docs/app/guides/draft-mode): Guide to enable and use Draft Mode for previewing draft content in Next.js applications with headless CMS integration.
+- [Next.js App Router Migration](https://nextjs.org/docs/app/guides/migrating/app-router-migration): Guide to incrementally migrate Next.js projects from Pages Router to the new App Router with updated APIs and features.
+- [Next.js Data Security Guide](https://nextjs.org/docs/app/guides/data-security): Explain Next.js best practices and features for securing data in applications using server components and actions.
